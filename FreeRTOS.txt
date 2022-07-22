@@ -1,0 +1,168 @@
+卷 Data 的文件夹 PATH 列表
+卷序列号为 A694-DF88
+D:.
+│  FreeRTOS.txt
+│  README.md
+│  新建文本文档.bat
+│  
+├─.idea
+│  │  .gitignore
+│  │  misc.xml
+│  │  modules.xml
+│  │  SCARP.iml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          Project_Default.xml
+│          
+├─docs
+│      pipeline.svg
+│      
+├─Exp1_Benchmark
+│  │  Test.ipynb
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      Test-checkpoint.ipynb
+│  │      
+│  ├─figures
+│  │      tsne_Leukemia_labeled.svg
+│  │      umap_Leukemia_labeled.svg
+│  │      umap_Leukemia_louvain.svg
+│  │      
+│  ├─Processed data
+│  │      blood2K.h5ad
+│  │      blood2K_filter30.h5ad
+│  │      blood2K_filter40.h5ad
+│  │      blood2K_filter50.h5ad
+│  │      blood2K_filter60.h5ad
+│  │      blood2K_filter70.h5ad
+│  │      blood2K_filter_var0.5.h5ad
+│  │      blood2K_filter_var0.6.h5ad
+│  │      blood2K_filter_var0.7.h5ad
+│  │      blood2K_filter_var0.8.h5ad
+│  │      blood2K_filter_var0.9.h5ad
+│  │      breast_cancer_NL.h5ad
+│  │      breast_cancer_PL.h5ad
+│  │      Breast_Tumor.h5ad
+│  │      Forebrain.h5ad
+│  │      GM12878vsHEK.h5ad
+│  │      GM12878vsHL.h5ad
+│  │      InSilico.h5ad
+│  │      Leukemia.h5ad
+│  │      Sox10KD_filter10.h5ad
+│  │      Sox10KD_filter20.h5ad
+│  │      Sox10KD_filter30.h5ad
+│  │      Sox10KD_filter40.h5ad
+│  │      Sox10KD_filter50.h5ad
+│  │      Sox10KD_filter_var0.5.h5ad
+│  │      Sox10KD_filter_var0.6.h5ad
+│  │      Sox10KD_filter_var0.7.h5ad
+│  │      Sox10KD_filter_var0.8.h5ad
+│  │      Sox10KD_filter_var0.9.h5ad
+│  │      Splenocyte.h5ad
+│  │      
+│  ├─Raw data
+│  │  │  Breast_Tumor.h5ad
+│  │  │  Forebrain.h5ad
+│  │  │  GM12878vsHEK.h5ad
+│  │  │  GM12878vsHL.h5ad
+│  │  │  InSilico.h5ad
+│  │  │  Leukemia.h5ad
+│  │  │  sort peaks.py
+│  │  │  Splenocyte.h5ad
+│  │  │  
+│  │  ├─blood2K
+│  │  │      blood2K.h5ad
+│  │  │      blood2K.py
+│  │  │      blood2K_filter10.h5ad
+│  │  │      blood2K_filter20.h5ad
+│  │  │      blood2K_filter30.h5ad
+│  │  │      blood2K_filter40.h5ad
+│  │  │      blood2K_filter50.h5ad
+│  │  │      blood2K_filter60.h5ad
+│  │  │      blood2K_filter70.h5ad
+│  │  │      blood2K_filter_var0.5.h5ad
+│  │  │      blood2K_filter_var0.6.h5ad
+│  │  │      blood2K_filter_var0.7.h5ad
+│  │  │      blood2K_filter_var0.8.h5ad
+│  │  │      blood2K_filter_var0.9.h5ad
+│  │  │      
+│  │  ├─Breast Cancer
+│  │  │      breast_cancer_ATAC.py
+│  │  │      breast_cancer_RNA.py
+│  │  │      
+│  │  └─SOX10
+│  │          GSE114557_MM057_MM087_Sox10KD_GoodCells_mergedPeaks_correctformat.counts.gz
+│  │          GSE114557_MM057_MM087_Sox10KD_GoodCells_mergedPeaks_correctformat.counts.txt
+│  │          SOX10 data.py
+│  │          Sox10KD_filter10.h5ad
+│  │          Sox10KD_filter20.h5ad
+│  │          Sox10KD_filter30.h5ad
+│  │          Sox10KD_filter40.h5ad
+│  │          Sox10KD_filter50.h5ad
+│  │          Sox10KD_filter_var0.5.h5ad
+│  │          Sox10KD_filter_var0.6.h5ad
+│  │          Sox10KD_filter_var0.7.h5ad
+│  │          Sox10KD_filter_var0.8.h5ad
+│  │          Sox10KD_filter_var0.9.h5ad
+│  │          
+│  └─Results
+│          Kept component of Leukemia.svg
+│          Leukemia_louvain_confusion_mat.svg
+│          
+├─Exp2_Robustness
+├─Exp3_SNARE_seq
+├─Exp4_SOX10_Knockdown
+├─Exp5_10X_Multiome
+│  │  help_func.py
+│  │  README.md
+│  │  S01_Data_Preprocessing.ipynb
+│  │  S02_Run_SCARP.ipynb
+│  │  S03_PCHIC.ipynb
+│  │  S04_Chip_Seq.ipynb
+│  │  S05_Differential_Analysis.ipynb
+│  │  
+│  ├─.ipynb_checkpoints
+│  │      Data preprocessing-checkpoint.ipynb
+│  │      Differential analysis-checkpoint.ipynb
+│  │      Run SCARP-checkpoint.ipynb
+│  │      S02_Run_SCARP-checkpoint.ipynb
+│  │      S03_PCHIC-checkpoint.ipynb
+│  │      
+│  ├─figures
+│  │      stacked_violin__ATAC_CD14_Mono_marker_peaks.svg
+│  │      stacked_violin__RNA_CD14Mono_marker_genes.svg
+│  │      umap10X_pbmc_ATAC_celltype_filteredlabel.svg
+│  │      umap_CD14_Mono_cells.svg
+│  │      violin_ATAC_CD14_Mono_violin_group0.svg
+│  │      violin_ATAC_CD14_Mono_violin_group1.svg
+│  │      violin_RNA_CD14_Mono_violin_group0.svg
+│  │      violin_RNA_CD14_Mono_violin_group1.svg
+│  │      
+│  ├─Processed data
+│  │      10X_pbmc_ATAC.h5ad
+│  │      10X_pbmc_ATAC_celltype_filtered.h5ad
+│  │      10X_pbmc_RNA.h5ad
+│  │      
+│  ├─Raw data
+│  │      pbmc_granulocyte_sorted_10k_atac_peak_annotation.tsv
+│  │      pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5
+│  │      wnn_meta_data.csv
+│  │      
+│  └─Results
+│          10X_pbmc_ATAC_celltype_filtered_SCARP_Cells_feature.csv
+│          10X_pbmc_ATAC_celltype_filtered_SCARP_Peaks_feature.csv
+│          10X_pbmc_ATAC_SCARP_Cells_feature.csv
+│          10X_pbmc_ATAC_SCARP_Peaks_feature.csv
+│          
+└─Scarp
+    │  data_preprocessing.py
+    │  downstream.py
+    │  SCARP_help_func.py
+    │  
+    └─__pycache__
+            data_preprocessing.cpython-38.pyc
+            downstream.cpython-38.pyc
+            SCARP_help_func.cpython-38.pyc
+            
