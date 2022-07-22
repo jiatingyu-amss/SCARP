@@ -1,4 +1,4 @@
-# SCARP (Network Reinforcement with Peaks Location Information)
+# SCARP (Network Refinement with Peaks Location Information)
 
 Single-Cell ATAC-seq Analysis via Network Reinforcement with Peaks Location Information
 
@@ -52,12 +52,12 @@ Single-Cell ATAC-seq Analysis via Network Reinforcement with Peaks Location Info
 | parameter name | description           | type           | default |
 | :------------- | :-------------------- | :------------- | :------ |
 | data           | input scATAC-seq data | AnnData object | None    |
-| m              |                       | float          | 1.5     |
-| merge_thre     |                       | int            | 3000    |
-| beta           |                       | float          | 1.5     |
-| return_shape   |                       | str            | 'CN'    |
-| peak_loc       |                       | int            | True    |
-| parallel       |                       | int            | 0       |
+| m              | diffusion intensity               | float          | 1.5     |
+| merge_thre     |            merge threshold           | int            | 3000    |
+| beta           |            map function parameter      | float          | 1.5     |
+| return_shape   |           return shape            | str            | 'CN'    |
+| peak_loc       |         add peak location or not              | int            | True    |
+| parallel       |         parallel computing or not              | int            | 0       |
 
   
 #### (2) return clarificiation:
